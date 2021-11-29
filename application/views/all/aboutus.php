@@ -18,15 +18,15 @@
             </div>
         </div>
         <div class="tengah">
-            <a class="menu" href="#">HOME</a>
-            <a class="menu" href="#">PLANT CARE GUIDE </a>
-            <a class="menu" href="#">HOW TO ORDER</a>
-            <a class="menu" href="#">ABOUT US</a>
+            <a class="menu" href="<?php echo base_url().'index.php/home'?>">HOME</a>
+            <a class="menu" href="<?php echo base_url().'index.php/home/guide'?>">PLANT CARE GUIDE </a>
+            <a class="menu" href="<?php echo base_url().'index.php/home/how_to_order'?>">HOW TO ORDER</a>
+            <a class="menu" href="<?php echo base_url().'index.php/home/aboutus'?>">ABOUT US</a>
 
         </div>
         <div class="akhir">
             <a class="login" href="<?php echo base_url(). 'index.php/home/login'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
-            <a class="buy" href="#"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
+            <a class="buy" href="<?php echo base_url().'index.php/home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
         </div>
     </nav>
     <div clas ="mn_container">
