@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/home.css">
     <title>HOME </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,21 +13,21 @@
 <body>
     <nav>
         <div class="awal" > 
-            <img src="assets/img/logo.png" alt="">
+            <img src="<?php echo base_url()?>assets/img/logo.png" alt="">
             <div class="nama">
                 StartPlant
             </div>
         </div>
         <div class="tengah">
-            <a class="menu" href="#">HOME</a>
-            <a class="menu" href="#">PLANT CARE GUIDE </a>
-            <a class="menu" href="#">HOW TO ORDER</a>
+            <a class="menu" href="<?php echo base_url().'index.php/home'?>">HOME</a>
+            <a class="menu" href="<?php echo base_url().'index.php/home/guide'?>">PLANT CARE GUIDE </a>
+            <a class="menu" href="<?php echo base_url().'index.php/home/how_to_order'?>">HOW TO ORDER</a>
             <a class="menu" href="<?php echo base_url().'index.php/home/aboutus'?>">ABOUT US</a>
 
         </div>
         <div class="akhir">
-            <a class="login" href="<?php echo base_url(). 'index.php/home/login'?>"> <img src="assets/img/login.png"></a>
-            <a class="buy" href="#"><img src="assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
+            <a class="login" href="<?php echo base_url(). 'index.php/home/login'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
+            <a class="buy" href="<?php echo base_url().'index.php/home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
         </div>
     </nav>
     <header>
@@ -45,18 +45,18 @@
         </div>
         <div class="foto">
             <div>
-                <img src="assets/img/heder.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/heder.png" alt="">
             </div>
         </div>
         <div class="sosmed">
             <div class="ig">
-                <img src="assets/img/ig.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/ig.png" alt="">
             </div>
             <div class="fb">
-                <img src="assets/img/fb.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/fb.png" alt="">
             </div>
             <div class="tw">
-                <img class="tw"src="assets/img/tw.png" alt="">
+                <img class="tw"src="<?php echo base_url()?>assets/img/tw.png" alt="">
             </div>
         </div>
     </header>
@@ -67,10 +67,10 @@
         </div>
         <div class="emot">
             <div class="pict">
-                <img src="assets/img/mood.png" alt="">
-                <img src="assets/img/kreatif.png" alt="">
-                <img src="assets/img/stress.png" alt="">
-                <img src="assets/img/polutan.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/mood.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/kreatif.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/stress.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/polutan.png" alt="">
             </div>
         </div>
     </div>
@@ -84,16 +84,16 @@
                 <div class="vege">
                     
                     <div class="tanda"></div>
-                    <img src="assets/img/vege.png" alt="">
+                    <img src="<?php echo base_url()?>assets/img/vege.png" alt="">
                 </div>
                 <div class="fruit">
-                    <img src="assets/img/fruit.png" alt="">
+                    <img src="<?php echo base_url()?>assets/img/fruit.png" alt="">
                 </div>
                 <div class="medis">
-                    <img src="assets/img/medicine.png" alt="">
+                    <img src="<?php echo base_url()?>assets/img/medicine.png" alt="">
                 </div>
                 <div class="indor">
-                    <img src="assets/img/indor.png" alt="">
+                    <img src="<?php echo base_url()?>assets/img/indor.png" alt="">
                 </div>
             </div>
         </div>
@@ -105,25 +105,25 @@
         <div class="kotak">
             <div class="reco">
                 <div class="tumbuhan">
-                    <img src="assets/img/nanas.png">
+                    <img src="<?php echo base_url()?>assets/img/nanas.png">
                 </div>
                 <p> Pinneple Plant</p>
             </div>
             <div class="reco">
                 <div class="tumbuhan">
-                    <img src="assets/img/rak.png">
+                    <img src="<?php echo base_url()?>assets/img/rak.png">
                 </div>
                 <p> Indor Plants</p>
             </div>
             <div class="reco">
                 <div class="tumbuhan">
-                    <img src="assets/img/tomat.png">
+                    <img src="<?php echo base_url()?>assets/img/tomat.png">
                 </div>
                 <p> Tomato</p>
             </div>
             <div class="reco">
                 <div class="tumbuhan">
-                    <img src="assets/img//letuce.png">
+                    <img src="<?php echo base_url()?>assets/img/letuce.png">
                 </div>
                 <p> Lettuce</p>
             </div>
@@ -140,7 +140,7 @@
                 <div class="baris1">
                     <div class="isi">
                         <div class="picture">
-                            <img src="assets/img/kontener.png" alt="">
+                            <img src="<?php echo base_url()?>assets/img/kontener.png" alt="">
                               
                         </div>
                         <div class="baca">
@@ -153,7 +153,7 @@
                     </div>
                     <div class="isi">
                         <div class="picture">
-                            <img src="assets/img/water.png" alt="">
+                            <img src="<?php echo base_url()?>assets/img/water.png" alt="">
                         </div>
                         <div class="baca">
                             <p class="time">Water</p>
@@ -187,7 +187,7 @@
                 <div class="baris1 kanan">
                     <div class="isi">
                         <div class="picture">
-                            <img src="assets/img/soil.png" alt="">
+                            <img src="<?php echo base_url()?>assets/img/soil.png" alt="">
                             
                         </div>
                         <div class="baca">
@@ -198,7 +198,7 @@
                     </div>
                     <div class="isi">
                         <div class="picture">
-                            <img src="assets/img/sun.png" alt="">
+                            <img src="<?php echo base_url()?>assets/img/sun.png" alt="">
                         </div>
                         <div class="baca">
                             <p class="time">Sun and Nutrient</p>
@@ -340,7 +340,7 @@
 </body>
 <footer>
     <div class="ft">
-        <img src="assets/img/vector 2.png">
+        <img src="<?php echo base_url()?>assets/img/vector 2.png">
         <h4>StartPlant</h4>
     </div>
     <div class="xx">
@@ -357,8 +357,8 @@
     </div>    
     <div class="lk">
         <h4>Follow Us</h4>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="assets/img/fb.png"></a>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="assets/img/ig.png"></a>
+        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/fb.png"></a>
+        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/ig.png"></a>
     </div> 
     <p class = "oo">Copyright © 2021. StarPlant BY Kelompok 4</p>
 </footer>
