@@ -14,7 +14,7 @@
         </div>
 
     </div>
-    <div class="tempat ">
+    <div class="tempat">
 
         
     </div>
