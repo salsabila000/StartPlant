@@ -5,6 +5,7 @@
     <title>How To Order</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/order.css">
+    <link href="<?php echo base_url()?>assets/img/logo.png" rel="icon">
 </head>
 <body>
     <nav>

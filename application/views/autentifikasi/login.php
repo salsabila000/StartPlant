@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/logins.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="<?php echo base_url()?>assets/img/logo.png" rel="icon">
 </head>
 <body>
 	<div class="bo">
@@ -23,14 +24,14 @@
 				<h5>Welcome back!</h5>
 				<h2>Login To Your Account</h2>
 			</div>
-			<form action="login.php" method="post" onSubmit="return validasi()">
+			<form method="post" action= "<?= base_url('autentifikasi'); ?>">
 				<div>
-					<label>Email:</label>
-					<input type="text" name="email" id="email" />
+					<label>Email</label>
+					<input type="text" name="email" id="email">
 				</div>
 				<div>
-					<label>Password:</label>
-					<input type="password" name="password" id="password" />
+					<label>Password</label>
+					<input type="password" name="password" id="password">
 				</div>
 				<div class="remember">
 					<input type="checkbox" name="remember" value="remember me">	Remember me<br>
@@ -45,16 +46,9 @@
 					<a href="#"><img src="<?php echo base_url()?>assets/img/fb.jpg"></a>
 					<a href="#"><img src="<?php echo base_url()?>assets/img/google.jpg"></a>
 				</div>
-					<p> Dont have an account? <a href="<?php echo base_url(). 'index.php/home/registrasi'?>"> Register now </p>
-
-					
-
+					<p> Dont have an account? <a href="<?php echo base_url(). 'autentifikasi/registrasi'?>"> Register now </p>
 			</form>
 		</div>
-		
 	</div>
 </body>
- 
-
-
 </html>

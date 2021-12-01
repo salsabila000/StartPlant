@@ -6,14 +6,6 @@ class Home extends CI_Controller {
     {
         $this->load->view('all/home');
     }
-    public function login() 
-    {
-        $this->load->view('autentifikasi/login');
-    }
-    public function registrasi() 
-    {
-        $this->load->view('autentifikasi/registrasi');
-    }
     public function aboutus() 
     {
         $this->load->view('all/aboutus');
@@ -29,7 +21,7 @@ class Home extends CI_Controller {
     public function how_to_order() 
     {
         $this->load->view('all/how_to_order');
-    }
+    }  
 }
 
 ?>
