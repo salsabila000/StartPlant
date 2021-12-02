@@ -27,11 +27,11 @@
 			<form method="post" action= "<?= base_url('autentifikasi'); ?>">
 				<div>
 					<label>Email</label>
-					<input type="text" name="email" id="email">
+					<input type="text" name="email" id="email"> <?= form_error('email','<small class="text-danger pl-3">', '</small>'); ?>
 				</div>
 				<div>
 					<label>Password</label>
-					<input type="password" name="password" id="password">
+					<input type="password" name="password" id="password" ><?= form_error('password','<small class="text-danger pl-3">', '</small>'); ?>
 				</div>
 				<div class="remember">
 					<input type="checkbox" name="remember" value="remember me">	Remember me<br>

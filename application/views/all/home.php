@@ -40,8 +40,8 @@
             No problem. Make your grow-you-own dreams a reality with these 10 easy-to-follow tips
             these expert gardening tips. Let’s check this out!</p>
             <div class="tbl">
-                <a class="tbl-buy" href="#"> Buy Plant Guide</a>
-                <a class=" tbl-view" href="#"> View Tips</a>
+                <a class="tbl-buy" href="<?php echo base_url().'home/buy_plant'?>"> Buy Plant Guide</a>
+                <a class=" tbl-view" href="#view"> View Tips</a>
             </div>
         </div>
         <div class="foto">
@@ -215,6 +215,7 @@
 
     </div>
     <div class="tips">
+        <section id="view"> </section>
         <div class="heder">
             <p>8 Top Gardening Tips for Beginners</p>
         </div>
@@ -333,7 +334,6 @@
 
                 </div>
             </div>
-
         </div>
 
     </div>

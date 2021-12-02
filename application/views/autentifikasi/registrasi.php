@@ -25,13 +25,13 @@
 	</div>	
 	<div class="tengah" >
 	 	<div class="ss">
-			<form method="post" action=""<?= base_url('autentifikasi/registrasi'); ?>">	
+			<form method="post" action="<?= base_url('autentifikasi/registrasi');?>">	
 				<label>Full Name</label>
-				<input type="text" class="input"placeholder="Name" name="nama" id ="nama" value="<?= set_value('nama'); ?>"><br>
+				<input type="text" class="input"placeholder="Name" name="nama" id ="nama" value="<?= set_value('nama'); ?>"><?= form_error('nama','<small class="text-danger pl-3">', '</small>'); ?><br>
 				<label>Email</label>
-				<input type="text" class="input" placeholder="Email" name="email" id="email" value="<?= set_value('email'); ?>"><br>
+				<input type="text" class="input" placeholder="Email" name="email" id="email" value="<?= set_value('email'); ?>"><?= form_error('email','<small class="text-danger pl-3">', '</small>'); ?><br>
 				<label>Password</label>
-				<input type="password" class="input" placeholder="Password" name="password" id="password "><br>			
+				<input type="password" class="input" placeholder="Password" name="password" id="password "><?= form_error('password','<small class="text-danger pl-3">', '</small>'); ?><br>			
 				<div class = "btn">
 					<button type="submit" class="btn-sgu">SIGN UP</button>
 				</div>
