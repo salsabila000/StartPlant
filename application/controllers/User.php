@@ -11,5 +11,6 @@ class User extends CI_Controller
     { 
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->set_userdata('email')])->row_array();
         $this->load->view('user/index', $data) ;
+        
     }
 }

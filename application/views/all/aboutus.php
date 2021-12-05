@@ -26,8 +26,8 @@
 
         </div>
         <div class="akhir">
-            <a class="login" href="<?php echo base_url(). 'index.php/home/login'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
-            <a class="buy" href="<?php echo base_url().'index.php/home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
+            <a class="login" href="<?php echo base_url(). 'autentifikasi'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
+            <a class="buy" href="<?php echo base_url().'home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
         </div>
     </nav>
     <div clas ="mn_container">

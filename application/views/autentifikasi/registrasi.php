@@ -20,7 +20,7 @@
 		</div>
 	</div>
 	<div class="sgn">
-			<a class="sgin" href="#">LOGIN</a> 
+			<a class="sgin" href="<?php echo base_url().'autentifikasi'?>">LOGIN</a> 
 			<a class="sgup" href="#">SIGN UP</a>
 	</div>	
 	<div class="tengah" >
