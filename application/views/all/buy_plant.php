@@ -16,10 +16,10 @@
             </div>
         </div>
         <div class="tengah">
-            <a class="menu" href="<?php echo base_url().'index.php/home'?>">HOME</a>
-            <a class="menu" href="<?php echo base_url().'index.php/home/guide'?>">PLANT CARE GUIDE </a>
-            <a class="menu" href="<?php echo base_url().'index.php/home/how_to_order'?>">HOW TO ORDER</a>
-            <a class="menu" href="<?php echo base_url().'index.php/home/aboutus'?>">ABOUT US</a>
+            <a class="menu" href="<?php echo base_url().'home'?>">HOME</a>
+            <a class="menu" href="<?php echo base_url().'home/guide'?>">PLANT CARE GUIDE </a>
+            <a class="menu" href="<?php echo base_url().'home/how_to_order'?>">HOW TO ORDER</a>
+            <a class="menu" href="<?php echo base_url().'home/aboutus'?>">ABOUT US</a>
 
         </div>
         <div class="akhir">
