@@ -18,6 +18,18 @@ class Home extends CI_Controller {
     {
         $this->load->view('all/aboutus');
     }
+    public function guide() 
+    {
+        $this->load->view('all/guide');
+    }
+    public function buy_plant() 
+    {
+        $this->load->view('all/buy_plant');
+    }
+    public function how_to_order() 
+    {
+        $this->load->view('all/how_to_order');
+    }
 }
 
 ?>
