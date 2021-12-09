@@ -1,0 +1,19 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    
+    background: image('back.png');
+    height: 500px;
+}
+.tbl-buy{
+    width: 170px;
+    height: 47.66px;
+    background: #93BFA2;
+    border-radius: 12px;
+    color: white;
+    padding: 14px 35px 14px 35px ;
+}
+

@@ -1,0 +1,151 @@
+footer{
+    display: flex;
+    width:101.20%;
+    margin-left: -8px;
+    background: #D7DCD7;
+    line-height:135%;;
+}
+footer .ft img{
+    display: flex;
+    width: 55.82px;
+    height: 70px;
+    margin-left: 105px;
+    margin-top: 80%; 
+}
+footer .ft h4{ 
+    display: flex;
+    margin-left: 105%;  
+    margin-top: -38%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323630;
+}
+footer .xx h3{
+    display: flex;
+    width: 210px;
+    display: flex;
+    margin-left: 75%;  
+    margin-top: 65%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+footer .grs1{
+    display: flex;
+    width: 1px;
+    height: 300px;
+    margin-left:300px;
+    border: 15px;
+    background: rgba(30, 40, 51, 0.07);
+}
+footer .vv{
+    width: 120px;
+    display: flex;
+    margin-left:60px;
+    line-height: 26px;
+    margin-top: 4%;
+}
+footer .vv h4{ 
+    width: 10%;  
+    height: 20px;
+    margin-left: 5%;
+    margin-top: 40%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #219C0D;
+}
+footer .vv p{
+    margin-left: -10%;  
+    height: 50px;
+    margin-top: 65%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #1E2833;
+
+}
+footer .vs{
+    width: 120px;
+    display: flex;
+    margin-left:60px;
+    line-height: 26px;
+    margin-top: 4%;
+}
+footer .vs h4{
+    width: 11%;  
+    height: 20px;
+    margin-left: 5%;
+    margin-top: 40%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #219C0D;
+}
+footer .vs p{
+    margin-left: -10%;  
+    height: 50px;
+    margin-top: 65%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #1E2833;
+}
+footer .lk{
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    margin-left:60px;
+    line-height: 26px;
+    margin-top: 4%;
+    
+}
+footer .lk h4{
+    height: 22px;
+    margin-left: 5%;
+    margin-top: 20%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #219C0D;
+}
+
+footer .lk .xx {
+    margin-top: 40%;
+    margin-left: -35%;  
+    width: 140px;
+    height: 50px;
+   
+}
+footer .lk .xx img {
+    width: 30px;
+}
+
+footer .oo{
+    margin-left: -60%;
+    display: flex;
+    width: 30%;
+    height: 40px;
+    margin-top: 25%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.204545px;
+    color: #1E2833;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}

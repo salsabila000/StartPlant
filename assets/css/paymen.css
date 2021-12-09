@@ -1,0 +1,19 @@
+.harga{
+    color: red;
+    font-size: 20px;
+}
+.tengah{
+    
+    margin: 2%;
+}
+body{
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+
+}
+h2{
+    text-align: center;
+}
+
+

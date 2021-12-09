@@ -20,15 +20,15 @@
             </div>
         </div>
         <div class="tengah">
-            <a class="menu" href="<?php echo base_url().'home'?>">HOME</a>
-            <a class="menu" href="<?php echo base_url().'home/guide'?>">PLANT CARE GUIDE </a>
-            <a class="menu" href="<?php echo base_url().'home/how_to_order'?>">HOW TO ORDER</a>
-            <a class="menu" href="<?php echo base_url().'home/aboutus'?>">ABOUT US</a>
+            <a class="menu" href="<?php echo base_url().'user'?>">HOME</a>
+            <a class="menu" href="<?php echo base_url().'user/guide'?>">PLANT CARE GUIDE </a>
+            <a class="menu" href="<?php echo base_url().'user/how_to_order'?>">HOW TO ORDER</a>
+            <a class="menu" href="<?php echo base_url().'user/aboutus'?>">ABOUT US</a>
 
         </div>
         <div class="akhir">
             <a class="logout" href="<?php echo base_url(). 'autentifikasi'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
-            <a class="buy" href="<?php echo base_url().'home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
+            <a class="buy" href="<?php echo base_url().'user/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
         </div>
     </nav>
     <header>
@@ -40,7 +40,7 @@
             No problem. Make your grow-you-own dreams a reality with these 10 easy-to-follow tips
             these expert gardening tips. Let’s check this out!</p>
             <div class="tbl">
-                <a class="tbl-buy" href="<?php echo base_url().'home/buy_plant'?>"> Buy Plant Guide</a>
+                <a class="tbl-buy" href="<?php echo base_url().'user/buy_plant'?>"> Buy Plant Guide</a>
                 <a class=" tbl-view" href="#view"> View Tips</a>
             </div>
         </div>
