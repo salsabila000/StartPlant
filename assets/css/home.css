@@ -78,6 +78,9 @@ nav{
 .buy img{
     padding: 9px 5px 12px 7px;
 }
+a:hover {
+    color: rgba(179, 71, 38, 0.747);
+ }
 /* header */
 
 header{

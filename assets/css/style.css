@@ -82,6 +82,9 @@ nav{
 .buy img{
     padding: 9px 5px 12px 7px;
 }
+a:hover {
+    color: rgba(114, 37, 13, 0.747);
+}
 
 .bdr123 {
     width: auto;
