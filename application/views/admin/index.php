@@ -10,14 +10,14 @@
                 </div>
             <?php }?>
             <?= $this->session->flashdata('pesan'); ?>
-            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#bukuBaruModal"><i class="fas fa-file-alt"></i> Update E-Book</a>
+            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#bukuBaruModal"><i class="fas fa-file-alt"></i> Perbarui E-Book</a>
             <table class="table table-hover">
                 <thead>
                     <tr>
                         <th scope="col">No</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Picture</th>
+                        <th scope="col">Judul</th>
+                        <th scope="col">Harga</th>
+                        <th scope="col">Gambar</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,7 +33,7 @@
                                 <img src="<?= base_url('assets/img/upload/') . $b['image'];?>" class="img-fluid  img-thumbnail" alt="...">
                             </picture></td>
                         <td>
-                            <a href="<?= base_url('admin/hapusEbook/').$b['id'];?>" onclick="return confirm('Are You Sure Delete' <?= $judul.' '.$b['judul_ebook'];?> ?');" class="badge badge-danger"><i class="fas fa-trash"></i> Delete</a>
+                            <a href="<?= base_url('admin/hapusEbook/').$b['id'];?>" onclick="return confirm('Are You Sure Delete' <?= $judul.' '.$b['judul_ebook'];?> ?');" class="badge badge-danger"><i class="fas fa-trash"></i> Hapus</a>
                         </td>
                     </tr>
                     <?php } ?>
@@ -53,7 +53,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="bukuBaruModalLabel">Update E-Book</h5>
+                <h5 class="modal-title" id="bukuBaruModalLabel">Perbarui Data E-book</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -61,18 +61,18 @@
             <form action="<?= base_url('admin'); ?>" method="post" enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-user" id="judul_ebook" name="judul_ebook" placeholder="Enter Ebook Title">
+                        <input type="text" class="form-control fSorm-control-user" id="judul_ebook" name="judul_ebook" placeholder="Masukkan Judul E-Book">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-user" id="harga" name="harga" placeholder="Enter Price">
+                        <input type="text" class="form-control form-control-user" id="harga" name="harga" placeholder="Masukkan Harga">
                     </div>
                     <div class="form-group">
                         <input type="file" class="form-control form-control-user" id="image" name="image">
                     </div>
                  </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-ban"></i> Close</button>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-plus-circle"></i> Add</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-ban"></i> Tutup</button>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-plus-circle"></i> Tambah</button>
                 </div>
             </form>
         </div>

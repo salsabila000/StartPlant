@@ -40,11 +40,11 @@
 		<div class = "sm">
 			<h3>OR SIGN UP VIA</h3>
 			<div class ="fb">
-				<img src="<?php echo base_url()?>assets/img/f.png">
+				<img src="<?php echo base_url()?>assets/img/ffcc.png">
 				<a href ="#">FACEBOOK</a>
 			</div>
 			<div class ="gg">
-				<img src="<?php echo base_url()?>assets/img/G.png">
+				<img src="<?php echo base_url()?>assets/img/gml.png">
 				<a href="#">GOOGLE</a>
 			</div>
 			<div class = "gmt">

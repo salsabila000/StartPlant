@@ -7,8 +7,7 @@ justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-book"></i>
                     </div>
-                    <div class="sidebar-brand-text mx-3">Pustaka 
-Booking</div>
+                    <div class="sidebar-brand-text mx-3">StartPlant</div>
             </a>
  
             <!-- Divider -->

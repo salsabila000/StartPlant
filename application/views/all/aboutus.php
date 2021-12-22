@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="<?php echo base_url()?>assets/img/logo.png" rel="icon">
-<title>ABOUT US</title>
+<title>TENTANG KAMI</title>
 </head>
 <body>
     <nav>
@@ -20,28 +20,26 @@
         </div>
         <div class="tengah">
             <a class="menu" href="<?php echo base_url().'home'?>">HOME</a>
-            <a class="menu" href="<?php echo base_url().'home/guide'?>">PLANT CARE GUIDE </a>
-            <a class="menu" href="<?php echo base_url().'home/how_to_order'?>">HOW TO ORDER</a>
-            <a class="menu" href="<?php echo base_url().'home/aboutus'?>">ABOUT US</a>
+            <a class="menu" href="<?php echo base_url().'home/guide'?>">CARA MERAWAT TANAMAN </a>
+            <a class="menu" href="<?php echo base_url().'home/how_to_order'?>">CARA MEMESAN</a>
+            <a class="menu" href="<?php echo base_url().'home/aboutus'?>">TENTANG KAMI</a>
 
         </div>
         <div class="akhir">
             <a class="login" href="<?php echo base_url(). 'autentifikasi'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
-            <a class="buy" href="<?php echo base_url().'home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
+            <a class="buy" href="<?php echo base_url().'home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> MEMBELI PANDUAN</a>
         </div>
     </nav>
     <div clas ="mn_container">
         <div class ="bt">
-            <h2>ABOUT US</h2>
+            <h2>TENTANG KAMI</h2>
         </div>
         <div class="gmr">
             <img src="https://th.bing.com/th/id/OIP.0b7Uq_MAsg-Es9jYxj9lQAHaEK?pid=ImgDet&rs=1">
             <h3> THE <br>TEAM</h3>
             <div class="gr"></div>
-            <p class="fff">A website that provides services, information & 
-            products in the form of an e-book about instructions in managing plants properly and correctly.
-            The goal of making this platform to make it easier for people who are beginners to grow crops on a small scale. In this website, 
-            visitors can see information about an overview of general plant and can also buy e-books her. <br><br>Here are some of the people who built this website.</p>
+            <p class="fff">Website yang menyediakan layanan, informasi & produk berupa e-book tentang petunjuk-petunjuk dalam mengelola tanaman dengan baik dan benar. Tujuan dibuatnya platform ini untuk memudahkan masyarakat yang masih pemula untuk bercocok tanam dalam skala kecil. 
+                Dalam website ini, pengunjung dapat melihat informasi tentang gambaran umum tanaman dan juga dapat membeli e-book nya. <br><br>Berikut adalah beberapa orang yang membangun situs web ini. </p>
         </div>
         <div class="org">
             <img src ="<?php echo base_url()?>assets/img/ellipse 9.png">
@@ -63,21 +61,21 @@
         <h4>StartPlant</h4>
     </div>
     <div class="xx">
-        <h3>Now, Everyone can grow their own plant</h3>
+        <h3>Sekarang, Semua orang bisa menanam tumbuhan mereka sendiri</h3>
     </div>
     <div class ="grs1"></div>
     <div class="vv">
-        <h4>Articel</h4>
-        <p>Email Marketing Campaigns</p>
+        <h4>Artikel</h4>
+        <p>Email Penjualan Campaigns</p>
     </div>
     <div class="vs">    
-        <h4>About</h4>
-        <p> Our Story Benefits</p>
+        <h4>Tentang</h4>
+        <p> Cerita Kami Manfaat</p>
     </div>    
     <div class="lk">
-        <h4>Follow Us</h4>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/fb.png"></a>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/ig.png"></a>
+        <h4>Ikuti Kami</h4>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/ffcc.png"></a>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/instg.png"></a>
     </div> 
     <p class = "oo">Copyright © 2021. StarPlant BY Kelompok 4</p>
 </footer>

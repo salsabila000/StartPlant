@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">  
-    <title>Buy Plants Guide</title>
+    <title>MEMBELI PANDUAN TANAMAN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style.css">
     <link href="<?php echo base_url()?>assets/img/logo.png" rel="icon">
@@ -16,85 +16,85 @@
             </div>
         </div>
         <div class="tengah">
-            <a class="menu" href="<?php echo base_url().'home'?>">HOME</a>
-            <a class="menu" href="<?php echo base_url().'home/guide'?>">PLANT CARE GUIDE </a>
-            <a class="menu" href="<?php echo base_url().'home/how_to_order'?>">HOW TO ORDER</a>
-            <a class="menu" href="<?php echo base_url().'home/aboutus'?>">ABOUT US</a>
+            <a class="menu" href="<?php echo base_url().'user'?>">HOME</a>
+            <a class="menu" href="<?php echo base_url().'user/guide'?>">CARA MERAWAT TANAMAN </a>
+            <a class="menu" href="<?php echo base_url().'user/how_to_order'?>">CARA MEMESAN</a>
+            <a class="menu" href="<?php echo base_url().'user/aboutus'?>">TENTANG KAMI</a>
 
         </div>
         <div class="akhir">
-            <a class="login" href="<?php echo base_url(). 'home/login'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
-            <a class="buy" href="<?php echo base_url().'home/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
+            <a class="login" href="<?php echo base_url(). 'autentifikasi'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
+            <a class="buy" href="<?php echo base_url().'user/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> MEMBELI PANDUAN</a>
         </div>
     </nav>
-    <h2>Plants, Guides, and Other Plant Related Items</h2>
+    <h2>Tanaman, Panduan, dan Item Terkait Tanaman Lainnya</h2>
     <div class="bdr123">
         <div class="border"> 
             <figcaption>
-                CARE FOR BEGINNER
+                PEDULI UNTUK PEMULA 
                 <figure>
                     <img src="<?php echo base_url()?>assets/img/image37.png">
-                    important ways to<br>
-                    raise the humidity in<br>
-                    your house<p>
-                    <a class="btn" href="<?php echo base_url().'payment'?>">Buy Only  Rp 5000; </a>
+                    10 Cara-cara penting untuk<br>
+                    meningkatkan kelembaban di<br>
+                    Rumah Anda<p>
+                    <a class="btn" href="<?php echo base_url().'payment'?>">Beli Hanya  Rp 5000; </a>
             </figcaption></figure>
         </div>
         <div class="border">
             <figcaption>
-                CARE FOR BEGINNER
+                PEDULI UNTUK PEMULA 
                 <figure>
-                    <img src="<?php echo base_url()?>assets/img/image29.png">
-                    How to<br>
-                    apply fertilizer<br>
-                    correctly?<p>
-                <a class="btn" href="<?php echo base_url().'payment'?>">Buy Only  Rp 5000; </a>
+                    <img src="<?php echo base_url()?>assets/img/image28.png">
+                    Bagaimana carany<br>
+                    beri pupuk<br>
+                    benar?<p>
+                <a class="btn" href="<?php echo base_url().'payment'?>">Beli Hanya  Rp 5000; </a>
             </figcaption></figure>
         </div>
         <div class="border">
             <figcaption>
-                CARE FOR BEGINNER
+                PEDULI UNTUK PEMULA 
                 <figure>
                     <img src="<?php echo base_url()?>assets/img/image29.png">
-                    How to<br>
-                    grow chili<br>
-                    plants?<p>
-                    <a class="btn" href="<?php echo base_url().'payment'?>">Buy Only  Rp 8000; </a>
+                    Bagaimana cara<br>
+                    menanam<br>
+                    tanaman cabai?<p>
+                    <a class="btn" href="<?php echo base_url().'payment'?>">Beli Hanya  Rp 8000; </a>
             </figcaption></figure>
         </div>
     </div>
     <div class="bdr123">
         <div class="border">
             <figcaption>
-                CARE FOR BEGINNER
+                PEDULI UNTUK PEMULA 
                 <figure>
                     <img src="<?php echo base_url()?>assets/img/image44.png">
-                    Where can you<br>
-                    get garden<br> 
-                    design inspiration?<p>
-                <a class="btn" href="<?php echo base_url().'payment'?>">Buy Only  Rp 15000; </a>
+                    Di mana Anda bisa<br>
+                    mendapatkan inspirasi<br> 
+                    desain taman?<p>
+                <a class="btn" href="<?php echo base_url().'payment'?>">Beli Hanya  Rp 15000; </a>
             </figcaption></figure>
         </div>
         <div class="border">
             <figcaption>
-                CARE FOR BEGINNER
+                PEDULI UNTUK PEMULA 
                 <figure>
                     <img src="<?php echo base_url()?>assets/img/image42.png">
-                    Trees  - Watering<br>
-                    and <br>
-                    winter care<p>
-                <a class="btn" href="<?php echo base_url().'payment'?>">Buy Only  Rp 10000; </a>
+                    Pohon  - Menyiram<br>
+                    dan <br>
+                    perawatan musim dingin<p>
+                <a class="btn" href="<?php echo base_url().'payment'?>">Beli Hanya  Rp 10000; </a>
             </figcaption></figure>
         </div>
         <div class="border">
             <figcaption>
-                CARE FOR BEGINNER
+                PEDULI UNTUK PEMULA 
                 <figure>
                     <img src="<?php echo base_url()?>assets/img/image46.png">
-                    How do you<br> 
-                    start a<br> 
-                    vegetable garden?<p>
-                    <a class="btn" href="<?php echo base_url().'payment'?>">Buy Only  Rp 12000; </a>
+                    Bagaimana cara<br> 
+                    memulaia<br> 
+                    kebun sayur?<p>
+                    <a class="btn" href="<?php echo base_url().'payment'?>">Beli Hanya  Rp 12000; </a>
             </figcaption></figure>
         </div>
     </div>
@@ -105,23 +105,22 @@
         <h4>StartPlant</h4>
     </div>
     <div class="xx">
-        <h3>Now, Everyone can grow their own plant</h3>
+        <h3>Sekarang, Semua orang bisa menanam tumbuhan mereka sendiri</h3>
     </div>
     <div class ="grs1"></div>
     <div class="vv">
-        <h4>Articel</h4>
-        <p>Email Marketing Campaigns</p>
+        <h4>Artikel</h4>
+        <p>Email Penjualan Campaigns</p>
     </div>
     <div class="vs">    
-        <h4>About</h4>
-        <p> Our Story Benefits</p>
+        <h4>Tentang</h4>
+        <p> Cerita Kami Manfaat</p>
     </div>    
     <div class="lk">
-        <h4>Follow Us</h4>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/fb.png"></a>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/ig.png"></a>
+        <h4>Ikuti Kami</h4>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/ffcc.png"></a>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/instg.png"></a>
     </div> 
     <p class = "oo">Copyright © 2021. StarPlant BY Kelompok 4</p>
 </footer>
 </html>
-    

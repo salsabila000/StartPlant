@@ -21,26 +21,26 @@
         </div>
         <div class="tengah">
             <a class="menu" href="<?php echo base_url().'user'?>">HOME</a>
-            <a class="menu" href="<?php echo base_url().'user/guide'?>">PLANT CARE GUIDE </a>
-            <a class="menu" href="<?php echo base_url().'user/how_to_order'?>">HOW TO ORDER</a>
-            <a class="menu" href="<?php echo base_url().'user/aboutus'?>">ABOUT US</a>
+            <a class="menu" href="<?php echo base_url().'user/guide'?>">CARA MERAWAT TANAMAN </a>
+            <a class="menu" href="<?php echo base_url().'user/how_to_order'?>">CARA MEMESAN</a>
+            <a class="menu" href="<?php echo base_url().'user/aboutus'?>">TENTANG KAMI</a>
 
         </div>
         <div class="akhir">
-            <a class="logout" href="<?php echo base_url(). 'autentifikasi'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
-            <a class="buy" href="<?php echo base_url().'user/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> Buy Plant Giude</a>
+            <a class="login" href="<?php echo base_url(). 'autentifikasi'?>"> <img src="<?php echo base_url()?>assets/img/login.png"></a>
+            <a class="buy" href="<?php echo base_url().'user/buy_plant'?>"><img src="<?php echo base_url()?>assets/img/carbon_shopping-cart.png"> MEMBELI PANDUAN</a>
         </div>
     </nav>
     <header>
         <div class="heading">
-            <p>NOW, EVERYONE CAN  GROW <br>
-                <span> THEIR OWN PLANT!</span>
+            <p>SEKARANG, SEMUA ORANG BISA MENANAM <br>
+                <span> TUMBUHAN MEREKA SENDIRI !</span>
             </p>
-            <p class="deskripsi"> Wondering how to start a garden? but you never gardened before?
-            No problem. Make your grow-you-own dreams a reality with these 10 easy-to-follow tips
-            these expert gardening tips. Let’s check this out!</p>
+            <p class="deskripsi"> Ingin tahu bagaimana cara memulai taman? tapi kamu tidak pernah berkebun 
+                sebelumnya? Tidak masalah. Wujudkan impian Anda sendiri dengan 10 tips yang mudah diikuti ini, 
+                tips berkebun ini. Mari kita liat ini! </p>
             <div class="tbl">
-                <a class="tbl-buy" href="<?php echo base_url().'user/buy_plant'?>"> Buy Plant Guide</a>
+                <a class="tbl-buy" href="<?php echo base_url().'user/buy_plant'?>"> MEMBELI PANDUAN</a>
                 <a class=" tbl-view" href="#view"> View Tips</a>
             </div>
         </div>
@@ -64,14 +64,14 @@
 
     <div class="help">
         <div class="text">
-            <p>How Plants Help You?</p>
+            <p>Bagaimana Tanaman Membantu Anda?</p>
         </div>
         <div class="emot">
             <div class="pict">
-                <img src="<?php echo base_url()?>assets/img/mood.png" alt="">
-                <img src="<?php echo base_url()?>assets/img/kreatif.png" alt="">
-                <img src="<?php echo base_url()?>assets/img/stress.png" alt="">
-                <img src="<?php echo base_url()?>assets/img/polutan.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/s.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/d.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/f.png" alt="">
+                <img src="<?php echo base_url()?>assets/img/g.png" alt="">
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
     <div class="container1">
         <div class="type">
             <div class="judul">
-                <p> Plant Type </p>
+                <p> JENIS TANAMAN </p>
             </div>
             <div class="gambar">
                 <div class="vege">
@@ -101,32 +101,32 @@
     </div>
     <div class="container">
         <div class="judul">
-            <p> Plants You May Like</p>
+            <p> TANAMAN YANG MUNGKIN DISUKAI</p>
         </div>
         <div class="kotak">
             <div class="reco">
                 <div class="tumbuhan">
                     <img src="<?php echo base_url()?>assets/img/nanas.png">
                 </div>
-                <p> Pinneple Plant</p>
+                <p> TANAMAN NANAS</p>
             </div>
             <div class="reco">
                 <div class="tumbuhan">
                     <img src="<?php echo base_url()?>assets/img/rak.png">
                 </div>
-                <p> Indor Plants</p>
+                <p> TANAMAN DIDALAM RUANGAN</p>
             </div>
             <div class="reco">
                 <div class="tumbuhan">
                     <img src="<?php echo base_url()?>assets/img/tomat.png">
                 </div>
-                <p> Tomato</p>
+                <p> Tomat</p>
             </div>
             <div class="reco">
                 <div class="tumbuhan">
                     <img src="<?php echo base_url()?>assets/img/letuce.png">
                 </div>
-                <p> Lettuce</p>
+                <p> SELADA</p>
             </div>
         </div>
 
@@ -134,8 +134,8 @@
     <div class="need">
         <div class="inner">
             <div class="paragrap">
-                <p class="kapital">What do I need to plant a plant ?</p>
-                <p>this is what you need for beginer, let’s find out !</p>
+                <p class="kapital">APA YANG DIBUTUHKAN UNTUK MENANAM TANAMAN ?</p>
+                <p>Berikut alat dan bahan untuk memulai menanam !</p>
             </div>
             <div class="timeline">
                 <div class="baris1">
@@ -145,10 +145,10 @@
                               
                         </div>
                         <div class="baca">
-                            <p class="time">Container</p>
-                            <p>Start with a proper pot or seed tray. Choose a size that fits your plant. 
-                                If you are starting from a seed, 
-                                choose a small pot and transplant your plant later into a larger pot</p>
+                            <p class="time">Wadah</p>
+                            <p>Mulailah dengan pot atau tray benih yang tepat. Pilih ukuran yang sesuai dengan tanaman Anda. 
+                            Jika Anda memulai dari biji,
+                             pilih pot kecil dan pindahkan tanaman Anda nanti ke pot yang lebih besar </p>
                         </div>
                       
                     </div>
@@ -157,10 +157,8 @@
                             <img src="<?php echo base_url()?>assets/img/water.png" alt="">
                         </div>
                         <div class="baca">
-                            <p class="time">Water</p>
-                            <p>Start with a proper pot or seed tray. Choose a size that fits your plant. 
-                                If you are starting from a seed, 
-                                choose a small pot and transplant your plant later into a larger pot</p>                           
+                            <p class="time">Air</p>
+                            <p> Siapkan air dan siram secekupnya, karena setiap tumbuhan membutuhkan air.</p>                           
                         </div>
                       
                     </div>
@@ -192,8 +190,8 @@
                             
                         </div>
                         <div class="baca">
-                            <p class="time">Soil</p>
-                            <p>Good-quality soil is high in nutrients that plants require. Rather than use the dirt from your yard, which might be nutrient-poor and contain weed seeds, buy a potting soil mix, available at any garden center.</p>
+                            <p class="time">Tanah</p>
+                            <p>Tanah yang berkualitas baik mengandung unsur hara yang tinggi yang dibutuhkan tanaman. Daripada menggunakan tanah dari halaman Anda, yang mungkin miskin nutrisi dan mengandung biji gulma, belilah campuran tanah pot, yang tersedia di pusat taman mana pun. </p>
                         </div>
                       
                     </div>
@@ -202,8 +200,8 @@
                             <img src="<?php echo base_url()?>assets/img/sun.png" alt="">
                         </div>
                         <div class="baca">
-                            <p class="time">Sun and Nutrient</p>
-                            <p>Like humans and animals, plants need both water and nutrients (food) to survive. Most all plants use water to carry moisture and nutrients back and forth between the roots and leaves.</p>
+                            <p class="time">Matahari dan Nutrisi </p>
+                            <p>Seperti manusia dan hewan, tumbuhan membutuhkan air dan nutrisi (makanan) untuk bertahan hidup. Hampir semua tanaman menggunakan air untuk membawa kelembaban dan nutrisi bolak-balik antara akar dan daun.</p>
                             
                         </div>
                       
@@ -215,9 +213,9 @@
 
     </div>
     <div class="tips">
-    <section id="view"> </section>
+        <section id="view"> </section>
         <div class="heder">
-            <p>8 Top Gardening Tips for Beginners</p>
+            <p>8 TIPS BERKEBUN TERBAIK UNTUK PEMULA </p>
         </div>
         <div class="konten">
             <div class="kiri">
@@ -226,9 +224,9 @@
                         <p>1</p>
                     </div>
                     <div class="desc">
-                        <p><b>Site it right.</b><br>
-                            Starting a garden it's all about location. Place your garden in a part of your yard where you'll see it 
-                            regularly (out of sight, out of mind definitely applies to gardening). That way, you'll be much more likely to spend time in it.
+                        <p><b>Penempatan yang benar.</b><br>
+                            Memulai bercocok tanam, menanam adalah tentang penempatan. Tempatkan tanaman anda ditempat yang sering anda  lihat dan secara teratur. 
+                            Dengan begitu anda akan lebih sering meluangkan waktu.
                         </p>
 
                     </div>
@@ -239,12 +237,12 @@
                         <p>2</p>
                     </div>
                     <div class="desc">
-                        <p><b>Follow the sun.</b><br>
+                        <p><b>Ikuti arah sinar matahari.</b><br>
                             
-                            Mis judging sunlight is a common pitfall when you're first learning to garden. 
-                            Pay attention to how sunlight plays through your yard before choosing a spot
-                            for your garden. Most edible plants, including many vegetables, herbs, and fruits,
-                            need at least 6 hours of sun in order to thrive.
+                            Salah memilih sinar matahari adalah keselahan umum yang dilakukan pemula. 
+                            Perhatikan bagaimana sinar matahari masuk sebelum anda memilih tanaman.
+                            Sebagian besar tanaman yang dapat dimakan seperti sayuran, rempah dan buah-buahan 
+                            setidaknya membutuhkan waktu 6 jam sinar matahari untuk berkembang.
                         </p>
                     </div>
 
@@ -254,12 +252,11 @@
                         <p>3</p>
                     </div>
                     <div class="desc">
-                        <p><b>Stay close to water.</b><br>
+                        <p><b>Dekat dengan sumber air.</b><br>
                             
-                            One of the best gardening tips you'll ever get is to plan your 
-                            new garden near a water source. The best way to tell if plants 
-                            need watering is to push a finger an inch down into the soil
-                            (that's about one knuckle deep). If it's dry, it's time to water.
+                        Salah satu tips berkebun terbaik yang pernah Anda dapatkan adalah merencanakan tanaman baru Anda di dekat sumber air. 
+                        Cara terbaik untuk mengetahui apakah tanaman perlu disiram adalah dengan menekan satu inci jari ke dalam tanah . 
+                        Jika terasa sudah kering, saatnya butuh menyiram tanaman.
 
                         </p>
 
@@ -271,9 +268,8 @@
                         <p>4</p>
                     </div>
                     <div class="desc">
-                        <p><b>Start with great soil.</b><br>
-                            One of the top pieces of advice is to invest in soil that is
-                            nutrient-rich and well-drained. 
+                        <p><b>Memulai dengan tanah yang bagus.</b><br>
+                        Salah satu saran utama adalah berinvestasi di tanah yang kaya nutrisi dan dikeringkan dengan baik. 
                             
                         </p>
                     </div>
@@ -285,11 +281,9 @@
                         <p>5</p>
                     </div>
                     <div class="desc">
-                        <p><b>Consider containers.</b><br>
-                            When space is at a premium, look to containers. You can grow many plants in pots, 
-                            including vegetables, herbs, flowers, fruit trees, berries, and shrubs. 
-                            When gardening in containers, use a pot that's large enough for the plant it's hosting.
-                        </p>
+                        <p><b>Pertimbangkan wadah.</b><br>
+                        Saat ruang sangat khusus, lihat wadahnya. Anda dapat menanam banyak tanaman dalam pot, termasuk sayuran, herbal, bunga, pohon buah-buahan, beri, dan semak belukar. 
+                        Saat berkebun dalam wadah, gunakan pot yang cukup besar untuk tanaman yang ditumpanginya. 
                     </div>
                 </div>
                 <div class="bagian">
@@ -297,11 +291,10 @@
                         <p>6</p>
                     </div>
                     <div class="desc">
-                        <p><b>Choose the right plants.</b><br>
-                            It's important to select plants that match your growing conditions. 
-                            This means putting sun-loving plants into a sunny spot, choosing 
-                            heat-tolerant plants in warm climates, and giving ground-gobbling vines 
-                            like pumpkins and melons ample elbow room (or a trellis to climb). 
+                        <p><b>Pilih tanaman yang tepat.</b><br>
+                        Sangat penting untuk memilih tanaman yang cocok dengan kondisi pertumbuhan. 
+                        Ini berarti menempatkan tanaman yang membutuhkan sinar matahari di tempat yang cerah, memilih tanaman yang tahan panas di iklim hangat, 
+                        dan memberikan tanaman rambat seperti labu dan melon ruang yang cukup.
 
                         </p>
                     </div>
@@ -312,8 +305,9 @@
                         <p>7</p>
                     </div>
                     <div class="desc">
-                        <p><b>Discover your zone.</b><br>
-                            Knowing your "hardiness zone" can help you choose the best plants. Simply put, it describes the coldest place a plant can grow. The higher the zone number, the warmer the climate. So if a plant is "hardy to zone 4" and you garden in zone 5, that plant will survive in your yard. If, however, you're in zone 3, it's too cold to grow that particular plant. Find out your hardiness zone.
+                        <p><b>Temukan zona Anda. </b><br>
+                        Sederhananya, ini menggambarkan lokasi iklim untuk menanam, karena beberapa tanaman membutuhkan iklim tertentu 
+                        untuk bisa tumbuh.
                             
                         </p>
 
@@ -325,16 +319,16 @@
                         <p>8</p>
                     </div>
                     <div class="desc">
-                        <p><b>Feed plants regularly.</b><br>
+                        <p><b>Beri makan tanaman secara teratur.</b><br>
                             
-                            We've already talked about the importance of starting with great soil, but that soil works best in concert with regular boosts of high-quality nutrition for your plants
+                        Kami telah berbicara tentang pentingnya memulai dengan tanah yang bagus, 
+                        tetapi tanah itu bekerja paling baik bersama dengan peningkatan nutrisi berkualitas tinggi secara teratur untuk tanaman Anda. 
                         </p>
 
                     </div>
 
                 </div>
             </div>
-
         </div>
 
     </div>
@@ -346,21 +340,21 @@
         <h4>StartPlant</h4>
     </div>
     <div class="xx">
-        <h3>Now, Everyone can grow their own plant</h3>
+        <h3>Sekarang, Semua orang bisa menanam tumbuhan mereka sendiri</h3>
     </div>
     <div class ="grs1"></div>
     <div class="vv">
-        <h4>Articel</h4>
-        <p>Email Marketing Campaigns</p>
+        <h4>Artikel</h4>
+        <p>Email Penjualan Campaigns</p>
     </div>
     <div class="vs">    
-        <h4>About</h4>
-        <p> Our Story Benefits</p>
+        <h4>Tentang</h4>
+        <p> Cerita Kami Manfaat</p>
     </div>    
     <div class="lk">
-        <h4>Follow Us</h4>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/fb.png"></a>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/ig.png"></a>
+        <h4>Ikuti Kami</h4>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/ffcc.png"></a>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/instg.png"></a>
     </div> 
     <p class = "oo">Copyright © 2021. StarPlant BY Kelompok 4</p>
 </footer>

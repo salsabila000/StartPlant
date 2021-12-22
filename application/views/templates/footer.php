@@ -5,21 +5,21 @@
         <h4>StartPlant</h4>
     </div>
     <div class="xx">
-        <h3>Now, Everyone can grow their own plant</h3>
+        <h3>Sekarang, Semua orang bisa menanam tumbuhan mereka sendiri</h3>
     </div>
     <div class ="grs1"></div>
     <div class="vv">
-        <h4>Articel</h4>
-        <p>Email Marketing Campaigns</p>
+        <h4>Artikel</h4>
+        <p>Email Penjualan Campaigns</p>
     </div>
     <div class="vs">    
-        <h4>About</h4>
-        <p> Our Story Benefits</p>
+        <h4>Tentang</h4>
+        <p> Cerita Kami Manfaat</p>
     </div>    
     <div class="lk">
-        <h4>Follow Us</h4>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/fb.png"></a>
-        <a class="xx" href ="https://www.instagram.com/rikyfaturozii/"><img src="<?php echo base_url()?>assets/img/ig.png"></a>
+        <h4>Ikuti Kami</h4>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/ffcc.png"></a>
+        <a class="xx" href ="#"><img src="<?php echo base_url()?>assets/img/instg.png"></a>
     </div> 
     <p class = "oo">Copyright © 2021. StarPlant BY Kelompok 4</p>
 </footer>

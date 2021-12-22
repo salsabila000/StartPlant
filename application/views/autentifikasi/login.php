@@ -43,8 +43,8 @@
 					<center><p>Or Sign up with</p><center>
 				<div class="fb">
 
-					<a href="#"><img src="<?php echo base_url()?>assets/img/fb.jpg"></a>
-					<a href="#"><img src="<?php echo base_url()?>assets/img/google.jpg"></a>
+					<a href="#"><img src="<?php echo base_url()?>assets/img/ffcc.png"></a>
+					<a href="#"><img src="<?php echo base_url()?>assets/img/gml.png"></a>
 				</div>
 					<p> Dont have an account? <a href="<?php echo base_url(). 'autentifikasi/registrasi'?>"> Register now </p>
 			</form>
